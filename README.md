@@ -49,6 +49,13 @@ The editor became one of the most important parts of the project. It is used for
   <tr><td align="center"><b>City level overview</b></td><td align="center"><b>Space level overview</b></td></tr>
 </table>
 
+<p align="center">
+  <img src="assets/editor/editor-demo.gif" alt="Cat vs Ghosts custom level editor demonstration" width="100%">
+</p>
+
+<p align="center"><em>Editor demo - zoom levels, navigation, object editing, and large-map overview.</em></p>
+<p align="center"><a href="assets/editor/editor-demo.mp4">MP4: Open MP4 version</a></p>
+
 The editor workflow includes zoom levels, large-map navigation, reusable brushes, decorative and gameplay entities, object anchors, background/theme selection, and direct testing of edited stages. The object layer is registry-driven so new content can be added without turning every level into a collection of one-off hard-coded cases.
 
 ## Tech stack

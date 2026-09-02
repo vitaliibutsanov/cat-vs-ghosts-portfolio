@@ -49,6 +49,13 @@ Edytor jest jedną z kluczowych części projektu i służy do tworzenia rzeczyw
   <tr><td align="center"><b>Przegląd poziomu miejskiego</b></td><td align="center"><b>Przegląd poziomu kosmicznego</b></td></tr>
 </table>
 
+<p align="center">
+  <img src="assets/editor/editor-demo.gif" alt="Demonstracja własnego edytora poziomów Cat vs Ghosts" width="100%">
+</p>
+
+<p align="center"><em>Demo edytora - zoom, nawigacja, edycja obiektów i przegląd dużej mapy.</em></p>
+<p align="center"><a href="assets/editor/editor-demo.mp4">MP4: Otwórz wersję MP4</a></p>
+
 Obsługuje kilka poziomów zoomu, nawigację po dużych mapach, wielokrotnego użytku pędzle, obiekty dekoracyjne i gameplayowe, punkty kotwiczenia, wybór tła/motywu oraz bezpośrednie testowanie edytowanych etapów. Warstwa obiektów jest oparta na rejestrze, dzięki czemu nową zawartość można dodawać bez tworzenia osobnego hard-code dla każdego elementu.
 
 ## Stos technologiczny
