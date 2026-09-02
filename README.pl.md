@@ -19,11 +19,11 @@
 Kampania prowadzi przez wyraźnie różniące się środowiska zamiast korzystać wciąż z jednego zestawu graficznego.
 
 <table>
-  <tr><td width="50%"><img src="assets/gameplay/stage-1-forest.webp"></td><td width="50%"><img src="assets/gameplay/stage-2-storm.webp"></td></tr>
+  <tr><td width="50%"><img src="assets/gameplay/stage-1-forest.webp" alt="Cat vs Ghosts - rozgrywka w etapie 1, Las"></td><td width="50%"><img src="assets/gameplay/stage-2-storm.webp" alt="Cat vs Ghosts - rozgrywka w etapie 2, Burza"></td></tr>
   <tr><td align="center"><b>Etap 1 · Las</b></td><td align="center"><b>Etap 2 · Burza</b></td></tr>
-  <tr><td><img src="assets/gameplay/stage-3-swamp.webp"></td><td><img src="assets/gameplay/stage-4-city.webp"></td></tr>
+  <tr><td><img src="assets/gameplay/stage-3-swamp.webp" alt="Cat vs Ghosts - rozgrywka w etapie 3, Bagna"></td><td><img src="assets/gameplay/stage-4-city.webp" alt="Cat vs Ghosts - rozgrywka w etapie 4, Miasto"></td></tr>
   <tr><td align="center"><b>Etap 3 · Bagna</b></td><td align="center"><b>Etap 4 · Miasto</b></td></tr>
-  <tr><td><img src="assets/gameplay/stage-5-space.webp"></td><td><img src="assets/gameplay/stage-6-castle.webp"></td></tr>
+  <tr><td><img src="assets/gameplay/stage-5-space.webp" alt="Cat vs Ghosts - rozgrywka w etapie 5, Kosmos"></td><td><img src="assets/gameplay/stage-6-castle.webp" alt="Cat vs Ghosts - rozgrywka w etapie 6, Nocny zamek"></td></tr>
   <tr><td align="center"><b>Etap 5 · Kosmos</b></td><td align="center"><b>Etap 6 · Nocny zamek</b></td></tr>
 </table>
 
@@ -45,7 +45,7 @@ Kampania prowadzi przez wyraźnie różniące się środowiska zamiast korzysta�
 Edytor jest jedną z kluczowych części projektu i służy do tworzenia rzeczywistej zawartości kampanii.
 
 <table>
-  <tr><td width="50%"><img src="assets/editor/city-overview.webp"></td><td width="50%"><img src="assets/editor/space-overview.webp"></td></tr>
+  <tr><td width="50%"><img src="assets/editor/city-overview.webp" alt="Przegląd poziomu miejskiego Cat vs Ghosts we własnym edytorze"></td><td width="50%"><img src="assets/editor/space-overview.webp" alt="Przegląd poziomu kosmicznego Cat vs Ghosts we własnym edytorze"></td></tr>
   <tr><td align="center"><b>Przegląd poziomu miejskiego</b></td><td align="center"><b>Przegląd poziomu kosmicznego</b></td></tr>
 </table>
 
@@ -54,9 +54,9 @@ Edytor jest jedną z kluczowych części projektu i służy do tworzenia rzeczyw
 </p>
 
 <p align="center"><em>Demo edytora - zoom, nawigacja, edycja obiektów i przegląd dużej mapy.</em></p>
-<p align="center"><a href="assets/editor/editor-demo.mp4">MP4: Otwórz wersję MP4</a></p>
+<p align="center"><a href="assets/editor/editor-demo.mp4">▶ Obejrzyj demo MP4</a></p>
 
-Obsługuje kilka poziomów zoomu, nawigację po dużych mapach, wielokrotnego użytku pędzle, obiekty dekoracyjne i gameplayowe, punkty kotwiczenia, wybór tła/motywu oraz bezpośrednie testowanie edytowanych etapów. Warstwa obiektów jest oparta na rejestrze, dzięki czemu nową zawartość można dodawać bez tworzenia osobnego hard-code dla każdego elementu.
+Obsługuje kilka poziomów zoomu, nawigację po dużych mapach, pędzle wielokrotnego użytku, obiekty dekoracyjne i gameplayowe, punkty kotwiczenia, wybór tła/motywu oraz bezpośrednie testowanie edytowanych etapów. Warstwa obiektów jest oparta na rejestrze, dzięki czemu nową zawartość można dodawać bez tworzenia osobnego hard-code dla każdego elementu.
 
 ## Stos technologiczny
 

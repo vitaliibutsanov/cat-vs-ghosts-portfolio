@@ -19,11 +19,11 @@
 The campaign moves through visually distinct environments rather than reusing one tileset or background system.
 
 <table>
-  <tr><td width="50%"><img src="assets/gameplay/stage-1-forest.webp"></td><td width="50%"><img src="assets/gameplay/stage-2-storm.webp"></td></tr>
+  <tr><td width="50%"><img src="assets/gameplay/stage-1-forest.webp" alt="Cat vs Ghosts Stage 1 forest gameplay"></td><td width="50%"><img src="assets/gameplay/stage-2-storm.webp" alt="Cat vs Ghosts Stage 2 storm gameplay"></td></tr>
   <tr><td align="center"><b>Stage 1 · Forest</b></td><td align="center"><b>Stage 2 · Storm</b></td></tr>
-  <tr><td><img src="assets/gameplay/stage-3-swamp.webp"></td><td><img src="assets/gameplay/stage-4-city.webp"></td></tr>
+  <tr><td><img src="assets/gameplay/stage-3-swamp.webp" alt="Cat vs Ghosts Stage 3 swamp gameplay"></td><td><img src="assets/gameplay/stage-4-city.webp" alt="Cat vs Ghosts Stage 4 city gameplay"></td></tr>
   <tr><td align="center"><b>Stage 3 · Swamp</b></td><td align="center"><b>Stage 4 · City</b></td></tr>
-  <tr><td><img src="assets/gameplay/stage-5-space.webp"></td><td><img src="assets/gameplay/stage-6-castle.webp"></td></tr>
+  <tr><td><img src="assets/gameplay/stage-5-space.webp" alt="Cat vs Ghosts Stage 5 space gameplay"></td><td><img src="assets/gameplay/stage-6-castle.webp" alt="Cat vs Ghosts Stage 6 night castle gameplay"></td></tr>
   <tr><td align="center"><b>Stage 5 · Space</b></td><td align="center"><b>Stage 6 · Night Castle</b></td></tr>
 </table>
 
@@ -45,7 +45,7 @@ The campaign moves through visually distinct environments rather than reusing on
 The editor became one of the most important parts of the project. It is used for real campaign content rather than only small test rooms.
 
 <table>
-  <tr><td width="50%"><img src="assets/editor/city-overview.webp"></td><td width="50%"><img src="assets/editor/space-overview.webp"></td></tr>
+  <tr><td width="50%"><img src="assets/editor/city-overview.webp" alt="Cat vs Ghosts city level overview in the custom editor"></td><td width="50%"><img src="assets/editor/space-overview.webp" alt="Cat vs Ghosts space level overview in the custom editor"></td></tr>
   <tr><td align="center"><b>City level overview</b></td><td align="center"><b>Space level overview</b></td></tr>
 </table>
 
@@ -54,7 +54,7 @@ The editor became one of the most important parts of the project. It is used for
 </p>
 
 <p align="center"><em>Editor demo - zoom levels, navigation, object editing, and large-map overview.</em></p>
-<p align="center"><a href="assets/editor/editor-demo.mp4">MP4: Open MP4 version</a></p>
+<p align="center"><a href="assets/editor/editor-demo.mp4">▶ Watch MP4 demo</a></p>
 
 The editor workflow includes zoom levels, large-map navigation, reusable brushes, decorative and gameplay entities, object anchors, background/theme selection, and direct testing of edited stages. The object layer is registry-driven so new content can be added without turning every level into a collection of one-off hard-coded cases.
 

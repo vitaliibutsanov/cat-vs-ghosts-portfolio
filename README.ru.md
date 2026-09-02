@@ -19,11 +19,11 @@
 Кампания проходит через визуально разные миры, а не строится на многократном использовании одного и того же набора графики.
 
 <table>
-  <tr><td width="50%"><img src="assets/gameplay/stage-1-forest.webp"></td><td width="50%"><img src="assets/gameplay/stage-2-storm.webp"></td></tr>
+  <tr><td width="50%"><img src="assets/gameplay/stage-1-forest.webp" alt="Cat vs Ghosts - игровой процесс этапа 1, Лес"></td><td width="50%"><img src="assets/gameplay/stage-2-storm.webp" alt="Cat vs Ghosts - игровой процесс этапа 2, Гроза"></td></tr>
   <tr><td align="center"><b>Этап 1 · Лес</b></td><td align="center"><b>Этап 2 · Гроза</b></td></tr>
-  <tr><td><img src="assets/gameplay/stage-3-swamp.webp"></td><td><img src="assets/gameplay/stage-4-city.webp"></td></tr>
+  <tr><td><img src="assets/gameplay/stage-3-swamp.webp" alt="Cat vs Ghosts - игровой процесс этапа 3, Болото"></td><td><img src="assets/gameplay/stage-4-city.webp" alt="Cat vs Ghosts - игровой процесс этапа 4, Город"></td></tr>
   <tr><td align="center"><b>Этап 3 · Болото</b></td><td align="center"><b>Этап 4 · Город</b></td></tr>
-  <tr><td><img src="assets/gameplay/stage-5-space.webp"></td><td><img src="assets/gameplay/stage-6-castle.webp"></td></tr>
+  <tr><td><img src="assets/gameplay/stage-5-space.webp" alt="Cat vs Ghosts - игровой процесс этапа 5, Космос"></td><td><img src="assets/gameplay/stage-6-castle.webp" alt="Cat vs Ghosts - игровой процесс этапа 6, Ночной замок"></td></tr>
   <tr><td align="center"><b>Этап 5 · Космос</b></td><td align="center"><b>Этап 6 · Ночной замок</b></td></tr>
 </table>
 
@@ -45,7 +45,7 @@
 Редактор стал одной из ключевых частей проекта и используется для настоящих уровней кампании.
 
 <table>
-  <tr><td width="50%"><img src="assets/editor/city-overview.webp"></td><td width="50%"><img src="assets/editor/space-overview.webp"></td></tr>
+  <tr><td width="50%"><img src="assets/editor/city-overview.webp" alt="Обзор городского уровня Cat vs Ghosts в собственном редакторе"></td><td width="50%"><img src="assets/editor/space-overview.webp" alt="Обзор космического уровня Cat vs Ghosts в собственном редакторе"></td></tr>
   <tr><td align="center"><b>Обзор городского уровня</b></td><td align="center"><b>Обзор космического уровня</b></td></tr>
 </table>
 
@@ -54,7 +54,7 @@
 </p>
 
 <p align="center"><em>Демонстрация редактора - масштабирование, навигация, работа с объектами и обзор большой карты.</em></p>
-<p align="center"><a href="assets/editor/editor-demo.mp4">MP4: Открыть MP4-версию</a></p>
+<p align="center"><a href="assets/editor/editor-demo.mp4">▶ Смотреть MP4-демо</a></p>
 
 Редактор поддерживает несколько масштабов, навигацию по большим картам, повторно используемые кисти, декоративные и игровые сущности, якоря объектов, выбор фона/темы и прямой запуск теста редактируемого этапа. Object-layer построен вокруг registry, поэтому новый контент можно добавлять без отдельного hard-code для каждого объекта.
 
