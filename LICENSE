@@ -5,9 +5,15 @@ All rights reserved.
 
 This repository and the original materials contained in it are provided solely for portfolio review, evaluation, and demonstration purposes.
 
-Unless required by applicable law or separately authorized in writing by the copyright holder, you may not:
+GitHub platform rights
+----------------------
+By publishing this repository publicly on GitHub, the copyright holder acknowledges the limited rights granted to GitHub and other GitHub users under GitHub's Terms of Service. These include viewing the public repository and using, displaying, performing, and reproducing its contents through GitHub-provided functionality, including forking within the Service.
 
-- copy or redistribute the original materials;
+Nothing in this license is intended to restrict rights granted directly by GitHub's Terms of Service or rights required by applicable law. Those platform rights do not grant any additional permission to reuse, redistribute, modify, sublicense, sell, or incorporate the original materials beyond what GitHub's Terms of Service or applicable law expressly permits.
+
+Unless required by applicable law, permitted by GitHub's Terms of Service as described above, or separately authorized in writing by the copyright holder, you may not:
+
+- copy or redistribute the original materials outside those permitted uses;
 - modify, adapt, translate, or create derivative works from the original materials;
 - incorporate the original materials into another software project, game, product, service, training set, asset collection, or commercial offering;
 - sell, sublicense, repackage, publish, or otherwise distribute the original materials;

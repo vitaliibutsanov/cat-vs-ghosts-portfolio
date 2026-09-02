@@ -14,6 +14,8 @@
 
 > **Source policy:** the production repository is private. This public repository is a portfolio showcase and intentionally does not publish the complete game or level-editor implementation.
 
+> **Role:** Project owner / Python developer — gameplay systems, custom level-editor tooling, performance profiling and optimization, localization integration, and the Windows packaging/release pipeline.
+
 ## Gameplay
 
 The campaign moves through visually distinct environments rather than reusing one tileset or background system.
@@ -84,11 +86,8 @@ The PyInstaller build explicitly excludes development-only profiler modules whil
 ### Localization and player data
 The game supports EN / PL / RU / UA through a keyed translation system with English fallback. Profiles, saves, campaign progression and settings are stored outside the packaged application.
 
-## Portfolio scope
-This repository demonstrates the finished project without publishing the complete proprietary implementation of the game or its level editor.
-
-## Current release
-**Cat vs Ghosts 1.0.0** is the first completed Windows release line.
+## Project status
+**Cat vs Ghosts 1.0.0** is complete. This repository is a public portfolio showcase; the production source code and Windows build are not distributed here.
 
 ## Author
 **Vitalii Butsanov**
@@ -97,4 +96,4 @@ Python developer / personal software projects
 GitHub: [vitaliibutsanov](https://github.com/vitaliibutsanov)
 
 ## License
-Copyright © 2026 Vitalii Butsanov. All rights reserved.
+This showcase is provided under a custom proprietary portfolio license. See [LICENSE](LICENSE) for the terms.

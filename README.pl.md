@@ -14,6 +14,8 @@
 
 > **Kod źródłowy:** repozytorium produkcyjne jest prywatne. To publiczne repozytorium służy jako prezentacja portfolio i celowo nie publikuje pełnej implementacji gry ani edytora poziomów.
 
+> **Rola:** autor projektu / Python developer — systemy rozgrywki, własny edytor poziomów, profilowanie i optymalizacja wydajności, integracja lokalizacji oraz proces pakowania i wydania wersji Windows.
+
 ## Rozgrywka
 
 Kampania prowadzi przez wyraźnie różniące się środowiska zamiast korzystać wciąż z jednego zestawu graficznego.
@@ -31,14 +33,14 @@ Kampania prowadzi przez wyraźnie różniące się środowiska zamiast korzysta�
 
 - Wieloetapowa kampania z różnymi motywami wizualnymi i bossami
 - Własny edytor poziomów używany do budowy i przebudowy kampanii
-- Warstwa obiektów / rejestr pędzli dla wielokrotnego użycia elementów gameplayowych i dekoracyjnych
+- Warstwa obiektów / rejestr pędzli dla wielokrotnego użycia elementów rozgrywki i dekoracyjnych
 - Profile graczy, postęp kampanii, zapis/odczyt, ustawienia i zrzuty ekranu
 - Obsługa klawiatury i myszy z modelem **last-input-wins**
 - Lokalizacja na **angielski, polski, rosyjski i ukraiński**
 - Automatyczna kalibracja wydajności dla różnych klas sprzętu
 - Optymalizacje renderowania, w tym zoptymalizowane systemy tła
 - Pakowanie wersji Windows przez **PyInstaller** i integracja instalatora
-- Narzędzia profilujące używane tylko podczas developmentu są wykluczane z finalnej paczki
+- Narzędzia profilujące używane tylko podczas prac rozwojowych są wykluczane z finalnej paczki
 
 ## Własny edytor poziomów
 
@@ -56,7 +58,7 @@ Edytor jest jedną z kluczowych części projektu i służy do tworzenia rzeczyw
 <p align="center"><em>Demo edytora - zoom, nawigacja, edycja obiektów i przegląd dużej mapy.</em></p>
 <p align="center"><a href="assets/editor/editor-demo.mp4">▶ Obejrzyj demo MP4</a></p>
 
-Obsługuje kilka poziomów zoomu, nawigację po dużych mapach, pędzle wielokrotnego użytku, obiekty dekoracyjne i gameplayowe, punkty kotwiczenia, wybór tła/motywu oraz bezpośrednie testowanie edytowanych etapów. Warstwa obiektów jest oparta na rejestrze, dzięki czemu nową zawartość można dodawać bez tworzenia osobnego hard-code dla każdego elementu.
+Obsługuje kilka poziomów zoomu, nawigację po dużych mapach, pędzle wielokrotnego użytku, obiekty dekoracyjne i gameplayowe, punkty kotwiczenia, wybór tła/motywu oraz bezpośrednie testowanie edytowanych etapów. Warstwa obiektów jest oparta na rejestrze, dzięki czemu nową zawartość można dodawać bez kodowania każdego elementu osobno na sztywno.
 
 ## Stos technologiczny
 
@@ -75,20 +77,17 @@ Obsługuje kilka poziomów zoomu, nawigację po dużych mapach, pędzle wielokro
 ### Wydajność zależna od sprzętu
 Gra zawiera automatyczny benchmark/kalibrację, który mierzy obciążenia renderowania i logiki oraz zapisuje lokalny profil wydajności. Optymalizacje testowano zarówno na nowoczesnym sprzęcie, jak i na starszym laptopie z hybrydową grafiką Intel/NVIDIA. Wersję Windows sprawdzono również na laptopie z NVIDIA RTX 3060.
 
-### Pipeline zawartości
-Obiekty są opisane w rejestrze zamiast być kodowane indywidualnie bezpośrednio w danych poziomów. Metadane pędzli mogą zawierać odwołania do assetów, kotwice, role gameplayowe i informacje związane z wydajnością.
+### Proces tworzenia zawartości
+Obiekty są opisane w rejestrze zamiast być kodowane indywidualnie bezpośrednio w danych poziomów. Metadane pędzli mogą zawierać odwołania do assetów, kotwice, role w rozgrywce i informacje związane z wydajnością.
 
 ### Rozdzielenie release/debug
 Konfiguracja PyInstaller jawnie wyklucza moduły profilera przeznaczone tylko do developmentu, jednocześnie pakując wymagane assety i poziomy.
 
 ### Lokalizacja i dane gracza
-Gra obsługuje EN / PL / RU / UA przez system tłumaczeń oparty na kluczach z fallbackiem do angielskiego. Profile, zapisy, postęp kampanii i ustawienia są przechowywane poza katalogiem spakowanej aplikacji.
+Gra obsługuje EN / PL / RU / UA przez system tłumaczeń oparty na kluczach z angielskim jako językiem zapasowym. Profile, zapisy, postęp kampanii i ustawienia są przechowywane poza katalogiem spakowanej aplikacji.
 
-## Zakres portfolio
-Repozytorium prezentuje ukończony projekt bez publikowania pełnej własnościowej implementacji gry ani edytora poziomów.
-
-## Aktualne wydanie
-**Cat vs Ghosts 1.0.0** to pierwsza ukończona wersja Windows.
+## Status projektu
+**Cat vs Ghosts 1.0.0** jest ukończony. To repozytorium jest publiczną prezentacją portfolio; produkcyjny kod źródłowy i wersja Windows nie są tutaj dystrybuowane.
 
 ## Autor
 **Vitalii Butsanov**
@@ -97,4 +96,4 @@ Python developer / personal software projects
 GitHub: [vitaliibutsanov](https://github.com/vitaliibutsanov)
 
 ## Licencja
-Copyright © 2026 Vitalii Butsanov. All rights reserved.
+Ta prezentacja jest udostępniana na podstawie własnej licencji portfolio. Szczegóły znajdują się w pliku [LICENSE](LICENSE).
