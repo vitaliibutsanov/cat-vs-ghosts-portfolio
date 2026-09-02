@@ -29,6 +29,13 @@ The campaign moves through visually distinct environments rather than reusing on
   <tr><td align="center"><b>Stage 5 · Space</b></td><td align="center"><b>Stage 6 · Night Castle</b></td></tr>
 </table>
 
+<p align="center">
+  <img src="assets/gameplay/gameplay-demo.gif" alt="Cat vs Ghosts gameplay demonstration" width="100%">
+</p>
+
+<p align="center"><em>Gameplay demo — platforming, combat, and several campaign environments.</em></p>
+<p align="center"><a href="assets/gameplay/gameplay-demo.mp4">▶ Watch MP4 demo</a></p>
+
 ## Key features
 
 - Multi-stage platforming campaign with distinct visual themes and bosses

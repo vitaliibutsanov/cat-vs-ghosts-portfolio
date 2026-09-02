@@ -29,6 +29,13 @@
   <tr><td align="center"><b>Етап 5 · Космос</b></td><td align="center"><b>Етап 6 · Нічний замок</b></td></tr>
 </table>
 
+<p align="center">
+  <img src="assets/gameplay/gameplay-demo.gif" alt="Демонстрація ігрового процесу Cat vs Ghosts" width="100%">
+</p>
+
+<p align="center"><em>Демонстрація ігрового процесу — платформінг, бій і кілька різних локацій кампанії.</em></p>
+<p align="center"><a href="assets/gameplay/gameplay-demo.mp4">▶ Переглянути MP4-демо</a></p>
+
 ## Ключові можливості
 
 - Багатоетапна платформна кампанія з різними візуальними темами та босами

@@ -29,6 +29,13 @@ Kampania prowadzi przez wyraźnie różniące się środowiska zamiast korzysta�
   <tr><td align="center"><b>Etap 5 · Kosmos</b></td><td align="center"><b>Etap 6 · Nocny zamek</b></td></tr>
 </table>
 
+<p align="center">
+  <img src="assets/gameplay/gameplay-demo.gif" alt="Demonstracja rozgrywki Cat vs Ghosts" width="100%">
+</p>
+
+<p align="center"><em>Demo rozgrywki — platformowanie, walka i kilka różnych środowisk kampanii.</em></p>
+<p align="center"><a href="assets/gameplay/gameplay-demo.mp4">▶ Obejrzyj demo MP4</a></p>
+
 ## Najważniejsze funkcje
 
 - Wieloetapowa kampania z różnymi motywami wizualnymi i bossami
